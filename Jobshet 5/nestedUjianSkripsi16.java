@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class nestedUjianSkripsi16 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         String pesan;
 
         System.out.print("Apakah Anda bebas kompen? (Yes/No): ");
@@ -31,5 +30,6 @@ public class nestedUjianSkripsi16 {
         }
 
         System.out.println(pesan);
+        sc.close();
     }
 }
