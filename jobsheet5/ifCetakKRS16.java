@@ -23,6 +23,7 @@ public class ifCetakKRS16 {
 
         System.out.println(pesan);
         sc.close();
+        
 
     }
 }
