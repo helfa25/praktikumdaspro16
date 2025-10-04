@@ -1,14 +1,10 @@
 package jobsheet5;
-
 import java.util.Scanner;
-
 public class switchCetakKRS16 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         System.out.print("Masukkan semester Anda (1-8): ");
         int semester = sc.nextInt();
-
         switch (semester) {
             case 1:
                 System.out.println("KRS Semester 1 ditampilkan.");
