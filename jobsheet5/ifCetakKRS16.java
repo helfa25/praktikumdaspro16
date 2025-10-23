@@ -14,14 +14,18 @@ public class ifCetakKRS16 {
         if (uktLunas){
             System.out.println("Pembayaran UKT terverifikasi");
             System.out.println("Silahkan cetak KRS dan minta tanda tangan DPA");
+
+            System.out.print("Masukkan nilai penilaian (0-100): ");
+            int nilai = sc.nextInt();
+
+            if (nilai > 100) {
+                System.out.println("Error: Nilai penilaian tidak boleh lebih dari 100");
+            } else {
+                System.out.println("Penilaian berhasil. Nilai: " + nilai);
+            }
         }else{
             System.out.println("Registrasi ditolak. Silakan lunasi UKT terlebih dahulu");
         }
-
-        String pesan = uktLunas ? "Pembayaran UKT terverifikasi\nSilahkan cetak KRS dan minta tanda tangan DPA" 
-        : "Registrasi ditolak. Silakan lunasi UKT terlebih dahulu";
-
-        System.out.println(pesan);
         sc.close();
         
 
