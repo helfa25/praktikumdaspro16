@@ -28,7 +28,12 @@ public class SiakadFor16 {
                 terendah = nilai; 
             }
 
-
+            // 3. Pengecekan Kelulusan (Batas minimal 60)
+            if (nilai >= 60) {
+                lulus++;
+            } else {
+                tidakLulus++;
+            }
         }
 
         // Menampilkan hasil
@@ -36,6 +41,10 @@ public class SiakadFor16 {
         System.out.println("Nilai tertinggi: " + tertinggi);
         System.out.println("Nilai terendah: " + terendah);
         
+        // Hasil Modifikasi: Menampilkan jumlah lulus dan tidak lulus
+        System.out.println("Jumlah mahasiswa LULUS: " + lulus);
+        System.out.println("Jumlah mahasiswa TIDAK LULUS: " + tidakLulus);
+        System.out.println("-------------------------------------");
 
         sc.close();
     }
