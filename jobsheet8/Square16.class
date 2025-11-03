@@ -1,0 +1,23 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+import java.util.Scanner;
+
+public class Square16 {
+   public Square16() {
+   }
+
+   public static void main(String[] var0) {
+      Scanner var1 = new Scanner(System.in);
+      System.out.print("Masukkan nilai N = ");
+      int var2 = var1.nextInt();
+
+      for(int var3 = 1; var3 <= var2; ++var3) {
+         for(int var4 = 1; var4 <= var2; ++var4) {
+            System.out.print("*");
+         }
+
+         System.out.println();
+      }
+
+      var1.close();
+   }
+}
