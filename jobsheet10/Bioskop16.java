@@ -1,3 +1,4 @@
+package jobsheet10;
 public class Bioskop16 {
     public static void main(String[] args) {
         // Langkah 3: Buat array of String 4 baris dan 2 kolom
