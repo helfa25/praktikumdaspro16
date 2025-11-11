@@ -32,7 +32,7 @@ public class SearchNilai16 {
         } else {
 
             System.out.println("Nilai yang dicari tidak ditemukan");
-        }
+        }   
 
         sc.close();
     }

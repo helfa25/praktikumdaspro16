@@ -6,6 +6,6 @@ public class ArrayBilangan16 {
         // Modifikasi Pertanyaan 3: Menggunakan for-loop yang benar
         for (int i = 0; i < 4; i++) { // i < 4 adalah kondisi yang benar
             System.out.println(bil[i]);
-        }
+        } //gatau
     }
 }
